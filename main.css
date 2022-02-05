@@ -32,3 +32,8 @@
 .grid-item-dark {
     background-color: lightseagreen;
 }
+/* Just for practice- take out later */
+.highlight {
+    border: 5px solid red
+    padding: 10px;
+}
