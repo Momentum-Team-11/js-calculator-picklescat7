@@ -23,7 +23,7 @@
     grid-gap: 1px;
     /* border: 25px solid white; */
     padding: 20px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 450px;
@@ -32,33 +32,45 @@
 
 #display {
     grid-column: span 3;
-    background-color: rgb(96, 185, 96);
+    display: flex;
+    background-color: #60b350;
+    justify-content: right;
+    padding-right: 20px;
+    padding-top: 50px;
     color: white;
-    text-align: center;
+    /* font-size: 30px; */
+    /* text-align: center; */
     height: 100px; 
     /* width: 150px; */
 }
   .operator {
     color: white
   }
+
+  /* hover not working */
+  /* .operator:hover { */
+    /* background-color: lightgreen; */
+/* } */
+
+
   .button.light {
     height: 100px;
     /* width: 50px; */
-    background-color: lightgreen;
-    font-size: 20px;
+    background-color: #82c676;
+    /* font-size: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    color: gray;
+    color: darkslategray;
     /* border: 1px solid black; */
   }
 
   .button.dark {
     height: 100px;
     /* width: 50px; */
-    background-color: rgb(96, 185, 96);
+    background-color: #60b350;
     color: white;
-    font-size: 20px;
+    /* font-size: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,7 +1,11 @@
 //Amy- I worked with KE and her sister on this
 
 // console.log("Hello World!");
-
+//Step 1: Create event listeners (or one listener) that allows you to console.log the number that you click on
+//Step 2: Next, figure out how to track the numbers that are clicked on in order. Will need access in order to do the math
+//Step 3: You'll need a trigger to do the math, Aka an event listener for clicking on the equal button
+//Step 4: Perform the math using eval()
+//Step 5: Once you have the math "answer" figure out how to put it in the "display". (This is about adding and removing things from the DOM)
 // const number1 = document.getElementById("1");
 // console.log("number button: 1", number1);
 
