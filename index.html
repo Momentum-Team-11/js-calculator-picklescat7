@@ -1,36 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="main.css" rel="stylesheet" />
-    <script src="main.js"></script>
-    <title>JavaScript Calculator</title>
-</head>
-<body>
-<div id="greeting"></div>
-    <div class="calculator-container">
-        <div class="calculator-grid">
-            <div class="grid-item-dark button">C</div>
-            <div class="grid-item-result-window"></div>
-            <div class="grid-item-dark button">7</div>
-            <div class="grid-item-dark button">8</div>
-            <div class="grid-item-dark button">9</div>
-            <div class="grid-item-light button">/</div>
-            <div class="grid-item-dark button">4</div>
-            <div class="grid-item-dark button">5</div>
-            <div class="grid-item-dark button">6</div>
-            <div class="grid-item-light button">x</div>
-            <div class="grid-item-dark button">1</div>
-            <div class="grid-item-dark button">2</div>
-            <div class="grid-item-dark button">3</div>
-            <div class="grid-item-light button">-</div>
-            <div class="grid-item-dark button">0</div>
-            <div class="grid-item-dark button">.</div>
-            <div class="grid-item-dark button">=</div>
-            <div class="grid-item-light button">+</div>
-        </div>
-    </div> 
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script> 
+  </head>
+  <body>
+    <div id="container">
+      <div class="button dark" id="clear">C</div>
+      <div id="display"></div>
+      <div class="button dark" id="7">7</div>
+      <div class="button dark" id="8">8</div>
+      <div class="button dark" id="9">9</div>
+      <div class="button light" id="/">/</div>
+      <div class="button dark" id="4">4</div>
+      <div class="button dark" id="5">5</div>
+      <div class="button dark" id="6">6</div>
+      <div class="button light" id="*">X</div>
+      <div class="button dark" id="1">1</div> 
+      <div class="button dark" id="2">2</div>
+      <div class="button dark" id="3">3</div>
+      <div class="button light" id="-">-</div>
+      <div class="button dark" id="0">0</div>
+      <div class="button dark" id=".">.</div>
+      <div class="button light operator" id="+">+</div>
+      <div class="button light" id="eval">=</div>
+    </div>
+  </body>
 </html>
+
+<!---we added in this value of 1 to use for our math in js-->
+<!-- <!DOCTYPE html> -->
+<!-- <html lang="en"> -->
+<!-- <head> -->
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- <link href="style.css" rel="stylesheet" /> -->
+    <!-- <script src="script.js"></script> -->
+    <!-- <title>JavaScript Calculator</title> -->
+<!-- </head> -->
+<!-- <body> -->
+    <!-- <div id="container"> -->
+      <!-- <div id="display"> -->
+      <!-- </div> -->
+      <!-- <div class="button" id="1"> -->
+        <!-- 1 -->
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </body> -->
+<!-- <!~~ <body> ~~> -->
+        <!-- <!~~ <div id="calculator-container"> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="c">C</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-result-window" id="result-window"></div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="seven">7</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="8">8</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id ="9">9</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-light button"id ="slash">/</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="4">4</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="5">5</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="6">6</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-light button" id="multiply">*</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="1">1</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="2">2</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id ="3">3</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-light button" id="minus">-</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="0">0</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="decimal">.</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-dark button" id="equal">=</div> ~~> -->
+            <!-- <!~~ <div class="grid-item-light button" id="plus">+</div> ~~> -->
+        <!-- <!~~ </div> ~~> -->
+<!-- </html> -->
